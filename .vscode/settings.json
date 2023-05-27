@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "**/.github": true,
+    "**/.nyc_output": true,
+    "**/docs": false,
+    "**/node_modules": true,
+    "**/coverage": true,
+    "**/tasks": false,
+    "**/screenshots": true
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "liveServer.settings.port": 5502
+}

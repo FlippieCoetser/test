@@ -1,5 +1,5 @@
-import { JSONLoader } from "../JSONLoader.js";
-let json = await JSONLoader.load("../test.json");
+import { JSONLoader } from "./JSONLoader.js";
+let json = await JSONLoader.load("./test.json");
 
 const importmap = {
   imports: {

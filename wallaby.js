@@ -1,8 +1,6 @@
 module.exports = function (wallaby) {
   return {
     files: [
-      "JSONLoader.js",
-      "test.json",
       "importmap.js",
       "src/**/*.ts",
       "node_modules/@browser-modules/browser.template/lib/*.js",

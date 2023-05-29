@@ -9,7 +9,7 @@
   },
   "include": ["./src/**/*", "./test/**/*"],
   "typedocOptions": {
-    "entryPoints": ["./src/Calculator.ts"],
+    "entryPoints": ["./src/Index.ts"],
     "excludePrivate": true,
     "excludeProtected": true,
     "disableSources": true,

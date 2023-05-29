@@ -1,6 +1,10 @@
 module.exports = function (wallaby) {
   return {
-    files: ["src/**/*.ts"],
+    files: [
+      "importmap.js",
+      "src/**/*.ts",
+      "node_modules/@browser-modules/browser.template/lib/*.js",
+    ],
     tests: ["test/*.ts"],
     trace: true,
     compilers: {

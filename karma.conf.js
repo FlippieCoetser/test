@@ -3,7 +3,15 @@ const path = require("path");
 module.exports = function (config) {
   config.set({
     frameworks: ["jasmine"],
+    proxies: {
+      "/node_modules/": "/base/node_modules/",
+    },
     files: [
+      { pattern: "importmap.js" },
+      {
+        pattern: "node_modules/@browser-modules/browser.template/lib/*.js",
+        type: "module",
+      },
       { pattern: "./src/**/*.js", type: "module" },
       { pattern: "./test/**/*.js", type: "module" },
     ],

@@ -1,9 +1,9 @@
 {
-  "name": "@browser-modules/browser.template",
+  "name": "@browser-modules/browser.test",
   "version": "1.0.0",
   "description": "Template for Browser Module Development",
-  "browser": "./lib/Calculator.js",
-  "types": "./lib/Calculator.d.ts",
+  "browser": "./lib/Library.js",
+  "types": "./lib/Library.d.ts",
   "scripts": {
     "clean.test": "node ./tasks/clean.test.mjs",
     "clean.lib": "node ./tasks/clean.lib.mjs",
@@ -39,5 +39,8 @@
     "karma-spec-reporter": "^0.0.36",
     "typedoc": "^0.24.7",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@browser-modules/browser.template": "^1.0.0"
   }
 }

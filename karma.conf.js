@@ -7,9 +7,10 @@ module.exports = function (config) {
       "/node_modules/": "/base/node_modules/",
     },
     files: [
-      { pattern: "importmap.js" },
+      { pattern: "./utilities/inject.js" },
+      { pattern: "./importmap/importmap.js" },
       {
-        pattern: "node_modules/@browser-modules/browser.template/lib/*.js",
+        pattern: "./node_modules/@browser-modules/browser.template/lib/*.js",
         type: "module",
       },
       { pattern: "./src/**/*.js", type: "module" },

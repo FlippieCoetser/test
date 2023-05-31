@@ -7,9 +7,9 @@
     "inlineSources": true,
     "moduleResolution": "node"
   },
-  "include": ["./src/**/*", "./test/**/*"],
+  "include": ["../src/**/*", "../test/**/*"],
   "typedocOptions": {
-    "entryPoints": ["./src/Index.ts"],
+    "entryPoints": ["../src/Index.ts"],
     "excludePrivate": true,
     "excludeProtected": true,
     "disableSources": true,

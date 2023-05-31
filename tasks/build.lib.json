@@ -5,8 +5,8 @@
     "target": "es2020",
     "declaration": true,
     "moduleResolution": "node",
-    "rootDir": "./src",
-    "outDir": "./lib/"
+    "rootDir": "../src",
+    "outDir": "../lib/"
   },
-  "include": ["./src/**/*"]
+  "include": ["../src/**/*"]
 }
